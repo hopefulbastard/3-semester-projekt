@@ -3076,24 +3076,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\magnu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\milos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Projekt_API\\3_Semester_Projekt_API\\3_Semester_Projekt_API.csproj",
+      "projectUniqueName": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Projekt_API\\3_Semester_Projekt_API\\3_Semester_Projekt_API.csproj",
       "projectName": "3_Semester_Projekt_API",
-      "projectPath": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Projekt_API\\3_Semester_Projekt_API\\3_Semester_Projekt_API.csproj",
-      "packagesPath": "C:\\Users\\magnu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Projekt_API\\3_Semester_Projekt_API\\obj\\",
+      "projectPath": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Projekt_API\\3_Semester_Projekt_API\\3_Semester_Projekt_API.csproj",
+      "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Projekt_API\\3_Semester_Projekt_API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\magnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\milos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3155,7 +3150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
