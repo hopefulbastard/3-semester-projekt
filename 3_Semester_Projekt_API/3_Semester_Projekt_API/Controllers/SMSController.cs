@@ -3,6 +3,8 @@ using _3_Semester_Class_Library;
 
 namespace _3_Semester_Projekt_API.Controllers
 {
+    //Bjørn + Magnus
+
     [Route("api/[controller]")]
     [ApiController]
     public class SMSController : Controller

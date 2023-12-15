@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace _3_Semester_Class_Library
 {
+    //Magnus + Milo
+
     public class SMSLogDBContext : DbContext
     {
         public SMSLogDBContext(DbContextOptions<SMSLogDBContext> options) : base(options) { }

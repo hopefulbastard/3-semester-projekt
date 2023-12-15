@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.SqlServer;
 using _3_Semester_Class_Library;
 
+//Bjørn + Magnus + Milo
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

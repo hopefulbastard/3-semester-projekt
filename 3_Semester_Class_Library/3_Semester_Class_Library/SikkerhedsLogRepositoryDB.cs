@@ -4,6 +4,8 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace _3_Semester_Class_Library
 {
+    //Magnus + Milo
+
     public class SikkerhedsLogRepositoryDB : ISikkerhedsLogRepository
     {
         private readonly SikkerhedsLogDBContext _context;

@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace _3_Semester_Class_Library
 {
+    //Magnus + Milo
+
     public class SikkerhedsLogDBContext : DbContext
     {
         public SikkerhedsLogDBContext(DbContextOptions<SikkerhedsLogDBContext> options) : base(options) { }

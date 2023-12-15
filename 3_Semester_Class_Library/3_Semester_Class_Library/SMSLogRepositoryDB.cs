@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace _3_Semester_Class_Library
 {
+    //Magnus + Milo
+
     public class SMSLogRepositoryDB : ISMSLogRepository
     {
         private readonly SMSLogDBContext _context;

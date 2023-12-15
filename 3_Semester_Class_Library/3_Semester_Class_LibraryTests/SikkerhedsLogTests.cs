@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace _3_Semester_Class_LibraryTests
 {
+    //Magnus + Milo
+
     [TestClass()]
     public class SikkerhedsLogTests
     {

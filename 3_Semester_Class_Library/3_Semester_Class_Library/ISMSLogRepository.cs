@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace _3_Semester_Class_Library
 {
+    //Magnus + Milo
+
     public interface ISMSLogRepository
     {
 
