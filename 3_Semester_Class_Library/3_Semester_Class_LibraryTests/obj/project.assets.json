@@ -2828,19 +2828,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\milos\\.nuget\\packages\\": {}
+    "C:\\Users\\magnu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_LibraryTests\\3_Semester_Class_LibraryTests.csproj",
+      "projectUniqueName": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_LibraryTests\\3_Semester_Class_LibraryTests.csproj",
       "projectName": "3_Semester_Class_LibraryTests",
-      "projectPath": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_LibraryTests\\3_Semester_Class_LibraryTests.csproj",
-      "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_LibraryTests\\obj\\",
+      "projectPath": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_LibraryTests\\3_Semester_Class_LibraryTests.csproj",
+      "packagesPath": "C:\\Users\\magnu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_LibraryTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\milos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\magnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2854,8 +2859,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_Library\\3_Semester_Class_Library.csproj": {
-              "projectPath": "C:\\Users\\milos\\Documents\\Programmering 2023\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_Library\\3_Semester_Class_Library.csproj"
+            "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_Library\\3_Semester_Class_Library.csproj": {
+              "projectPath": "C:\\Users\\magnu\\Source\\Repos\\3-semester-projekt\\3_Semester_Class_Library\\3_Semester_Class_Library\\3_Semester_Class_Library.csproj"
             }
           }
         }
@@ -2903,7 +2908,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
