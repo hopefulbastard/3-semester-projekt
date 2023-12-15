@@ -17,6 +17,8 @@ namespace _3_Semester_Class_Library
         public int Id { get; set; }
         public int Tlf { get; set; }
 
+        public SMSLog() { }
+
         public void Validate()
         {
 
