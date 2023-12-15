@@ -7,8 +7,8 @@ namespace _3_Semester_Projekt_API.Controllers
     [ApiController]
     public class SMSController : Controller
     {
-        private SikkerhedsLogRepositoryDB _data;
-        public SMSController(SMSRepositoryDB data)
+        private SMSLogRepositoryDB _data;
+        public SMSController(SMSLogRepositoryDB data)
         {
             _data = data;
         }
@@ -18,7 +18,7 @@ namespace _3_Semester_Projekt_API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public IActionResult Get()
         {
-            IEnumerable<SMSListe> sms = _data.Get();
+            IEnumerable<SMSLog> sms = _data.Get();
 
             if (sms.ToList().Count == 0)
             {
@@ -33,7 +33,7 @@ namespace _3_Semester_Projekt_API.Controllers
         {
             try
             {
-                SMSListe sms = _data.Delete(id);
+                SMSLog sms = _data.Delete(id);
                 return Ok(sms);
             }
             catch (KeyNotFoundException knfe)

@@ -16,10 +16,15 @@ builder.Services.AddCors(option =>
             builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader())
             );
 
-var optionsBuilder = new DbContextOptionsBuilder<SikkerhedsLogDBContext>();
-optionsBuilder.UseSqlServer("Data Source = mssql5.unoeuro.com; Initial Catalog = bbksolutions_dk_db_databasen; User ID = bbksolutions_dk; Password=cmfbeAtrkR5zBaF426x3;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent = ReadWrite; MultiSubnetFailover=False");
-SikkerhedsLogDBContext context = new SikkerhedsLogDBContext(optionsBuilder.Options);
-builder.Services.AddSingleton<SikkerhedsLogRepositoryDB>(new SikkerhedsLogRepositoryDB(context));
+var optionsBuilderSikkerhedsLog = new DbContextOptionsBuilder<SikkerhedsLogDBContext>();
+optionsBuilderSikkerhedsLog.UseSqlServer("Data Source = mssql5.unoeuro.com; Initial Catalog = bbksolutions_dk_db_databasen; User ID = bbksolutions_dk; Password=cmfbeAtrkR5zBaF426x3;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent = ReadWrite; MultiSubnetFailover=False");
+SikkerhedsLogDBContext SikkerhedsContext = new SikkerhedsLogDBContext(optionsBuilderSikkerhedsLog.Options);
+builder.Services.AddSingleton<SikkerhedsLogRepositoryDB>(new SikkerhedsLogRepositoryDB(SikkerhedsContext));
+
+var optionsBuilderSMSLog = new DbContextOptionsBuilder<SMSLogDBContext>();
+optionsBuilderSMSLog.UseSqlServer("Data Source = mssql5.unoeuro.com; Initial Catalog = bbksolutions_dk_db_databasen; User ID = bbksolutions_dk; Password=cmfbeAtrkR5zBaF426x3;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent = ReadWrite; MultiSubnetFailover=False");
+SMSLogDBContext SMSContext = new SMSLogDBContext(optionsBuilderSMSLog.Options);
+builder.Services.AddSingleton<SMSLogRepositoryDB>(new SMSLogRepositoryDB(SMSContext));
 
 var app = builder.Build();
 
