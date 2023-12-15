@@ -21,7 +21,8 @@ namespace _3_Semester_Class_Library
 
         public void Validate()
         {
-
+            ValidateId();
+            ValidateTlf();
         }
 
         public void ValidateId()
