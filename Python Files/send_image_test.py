@@ -1,3 +1,4 @@
+'''Bjørn'''
 # import cv2
 
 # # Create a video capture object and allocate camera ID 0 (your webcam)
