@@ -2,3 +2,11 @@ C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_
 C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\3_Semester_Class_Library.AssemblyInfoInputs.cache
 C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\3_Semester_Class_Library.AssemblyInfo.cs
 C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\3_Semester_Class_Library.csproj.CoreCompileInputs.cache
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\bin\Debug\net7.0\3_Semester_Class_Library.deps.json
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\bin\Debug\net7.0\3_Semester_Class_Library.dll
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\bin\Debug\net7.0\3_Semester_Class_Library.pdb
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\3_Semester_Class_Library.csproj.AssemblyReference.cache
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\3_Semester_Class_Library.dll
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\refint\3_Semester_Class_Library.dll
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\3_Semester_Class_Library.pdb
+C:\Users\milos\Documents\Programmering 2023\3-semester-projekt\3_Semester_Class_Library\3_Semester_Class_Library\obj\Debug\net7.0\ref\3_Semester_Class_Library.dll

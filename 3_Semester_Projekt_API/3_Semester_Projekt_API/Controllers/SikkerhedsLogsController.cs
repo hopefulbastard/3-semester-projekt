@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using SikkerhedsLogRepositoryLib;
+﻿using Microsoft.AspNetCore.Mvc;
+using _3_Semester_Class_Library;
 
 namespace _3_Semester_Projekt_API.Controllers
 {

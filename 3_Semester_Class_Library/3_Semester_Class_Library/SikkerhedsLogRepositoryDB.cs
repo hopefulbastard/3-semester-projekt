@@ -1,4 +1,8 @@
-﻿namespace _3_Semester_Class_Library
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
+namespace _3_Semester_Class_Library
 {
     public class SikkerhedsLogRepositoryDB : ISikkerhedsLogRepository
     {

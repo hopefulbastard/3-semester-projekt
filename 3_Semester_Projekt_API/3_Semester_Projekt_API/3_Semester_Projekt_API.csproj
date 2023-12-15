@@ -9,7 +9,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="3_Semester_Class_Library">
+      <HintPath>..\..\3_Semester_Class_Library\3_Semester_Class_Library\bin\Debug\net7.0\3_Semester_Class_Library.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
