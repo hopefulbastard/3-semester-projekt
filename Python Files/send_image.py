@@ -1,3 +1,4 @@
+'''Bjørn'''
 from picamera import PiCamera
 from time import sleep
 import smtplib
